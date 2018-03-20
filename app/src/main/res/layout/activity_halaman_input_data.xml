@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.test.HalamanInputData">
+
+    <EditText
+        android:id="@+id/nama"
+        android:hint="Nama"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/nim"
+        android:hint="NIM"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/notlp"
+        android:hint="No Telepon"
+        android:layout_margin="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Simpan"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
